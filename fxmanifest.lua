@@ -9,9 +9,6 @@ lua54 'yes'
 games { "rdr3", "gta5" }
 
 dependency 'yarn'
-dependency 'webpack'
-
-webpack_config 'webpack.config.js'
 
 client_script 'scripts/client/*.client.js'
 server_script 'scripts/server/*.server.js'
